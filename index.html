@@ -22,15 +22,15 @@
     <body>
         <section id="head-sec">
             <div class="info-div">
-                <img class="profile-pic" src="https://www.rickgautam.ca/files/agent_profile_pics/1716843250.png" alt="profile Picture">
-                <p class="profile-info">Lalith Gautham <br> Real Estate Associate <br> Gaudam Real Estate CO</p>
+                <img class="profile-pic" src="https://www.rickgautam.ca/files/agent_profile_pics/1716843250.png" alt="profile Picture" style="height: 2;">
+                <h4 class="profile-info">Lalith Gautham <br> Real Estate Associate <br> Gaudam Real Estate CO</h4>
                 <img class="logo" src="https://www.rickgautam.ca/files/themeManager/12423/theme19/Moxi_Pri_Coastal%20Realty%20Ltd_Gold_0.png" alt="Company logo">
             </div>
             
         </section>
 <!-- I'll paste the navbar into the other webpages when im done -->
         <section id="navbar">
-            <nav class="navbar navbar-expand-lg bg-white">
+            <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#"><img id="navbar-logo" src="https://www.rickgautam.ca/files/themeManager/12423/theme19/Moxi_Pri_Coastal%20Realty%20Ltd_Gold_0.png"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -66,11 +66,11 @@
         
             <section id="preview-work">
                 <div id="slide-window">
-                    <h3>Take a look at our preview contacts</h3>
+                    <h3>Quick Preview of Available Interiors</h3>
                     <button class="slide-button-left" onclick="prevSlide()">&#10094;</button>
                     <div class="slide-container">
-                        <img class="slide" src="https://www.beautifulhomes.asianpaints.com/content/dam/asianpaintsbeautifulhomes/home-decor-advice/decor-trends/trending-themes-in-interior-design/Title-contemporary-living-room.jpg" alt="Slides">
                         <img class="slide" src="https://hips.hearstapps.com/hmg-prod/images/khi-8-679a5e2577a78.jpg" alt="Slides">
+                        <img class="slide" src="https://www.beautifulhomes.asianpaints.com/content/dam/asianpaintsbeautifulhomes/home-decor-advice/decor-trends/trending-themes-in-interior-design/Title-contemporary-living-room.jpg" alt="Slides">
                         <img class="slide" src="https://hips.hearstapps.com/hmg-prod/images/buffalo-08-67a123061f70c.jpg" alt="Slides">
                         <img class="slide" src="https://hips.hearstapps.com/hmg-prod/images/kembleinteriors-kirstenfrancis-southampton-144-671fe3e573d95.jpg" alt="Slides">
                         <img class="slide" src="https://hips.hearstapps.com/hmg-prod/images/photo-nov-16-2015-4-58-39-pm-6758ba0948906.jpg" alt="Slides">
@@ -101,13 +101,14 @@
         </script>
 
 
-        <section id="booking" style="background-color: rgba(250, 235, 215, 0.348);">
+        <section id="booking">
             <div id="book-container">
 
-                <h2>Book an Appointment Now</h2>
-                <h4>Include your details to allow us process your booking</h4>
+                <h2>Apply for a House Now</h2>
+                <br>
+                <h5>Add your details to quicken the application Process</h5>
 
-
+                <!-- The auto-fill works perfectly by the way-->
                 <div id="booking-credentials">
                     <label for="fname">First Name</label>
                     <input type="text" id="fname" name="fname">
@@ -118,8 +119,11 @@
                     <label for="email">Email</label>
                     <input type="email" id="email" name="email">
 
-                    <label for="location">Location</label>
-                    <input type="text" id="location" name="location">
+                    <label for="address">Street Address</label>
+                    <input type="text" id="address" name="address">
+
+                    <label for="unitNum">Unit Number</label>
+                    <input type="text" id="unitNum" name="unitNum">
                     
                     <button id="my-submit">Submit</button>
                 </div>
@@ -127,7 +131,7 @@
         </section>
 
 
-        <section id="about">
+        <section id="about" style="background-color: rgba(250, 235, 215, 0.348);">
             <div id="about-heading"></div>
             <h1>About</h1>
 
@@ -136,6 +140,5 @@
                 © 2025 Rick Gautam Realtor. All rights reserved
             </p>
         </section>
-        <a href="index (1).html">To secondary Page</a>
     </body>
 </html>
