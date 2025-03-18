@@ -1,10 +1,8 @@
 body {
     text-align: center;
-    margin: 0;
 }
-
 .info-div {
-    height: 130px;
+    height: 160px;
     background-color: antiquewhite;
     margin: 0 auto;
     display: flex;
@@ -14,18 +12,26 @@ body {
 }
 
 .profile-pic {
-    height: 100px;
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
+    margin-right: 40px;
 }
 
 .profile-info {
     text-align: center;
-    
+    padding-right: 40px;
 }
 
 .logo {
-    height: 80px;
+    height: 100px;
     border-radius: 10%;
+}
+
+#navbar {
+    padding: 0.5rem 0;
+    background-color: rgba(78, 76, 58, 0.597);;
+    background-color: #65776c13;
 }
 
 #navbar-logo {
@@ -34,11 +40,22 @@ body {
 
 /* */
 
+#preview-work {
+    padding: 40px 0;
+    background: linear-gradient(135deg, #7c814f38, #fad0c4);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 #slide-window {
     position: relative;
-    max-width: 600px;
+    max-width: 900px;
     margin: auto;
     overflow: hidden;
+    border-radius: 10px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                background-color: rgba(255, 255, 255, 0.7);
+                padding: 20px;
 }
 
 .slide-container {
@@ -62,6 +79,7 @@ body {
     border: none;
     padding: 10px;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 .slide-button-left {
@@ -117,13 +135,3 @@ input {
 #my-submit:hover {
     background-color: teal;
 }
-
-
-/* confirmation*/
-
-
-
-/* announcements */
-
-
-/* past Works*/
